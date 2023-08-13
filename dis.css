@@ -1,0 +1,174 @@
+body{
+  background-image: url(HD-wallpaper-black-chalkboard-mathematics-formula-chalkboard-math.jpg);
+  margin: 0;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+h1{
+  background-color: #fff;
+  
+  top: 20px;
+  font-size: 40px;
+  text-shadow: 2px 2px  rgb(190, 177, 177);
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  
+}
+
+
+.contenedor1 h2,
+.contenedor1 span,
+.contenedor1 input,
+.contenedor1 select,
+.contenedor1 button,
+.contenedor1 p {
+  display: block;
+  margin-bottom: 10px; 
+  
+}
+
+.contenedor2 h2,
+.contenedor2 span,
+.contenedor2 input,
+.contenedor2 select,
+.contenedor2 button,
+.contenedor2 p {
+  display: block;
+  margin-bottom: 10px; 
+}
+
+.contenedor3 h2,
+.contenedor3 span,
+.contenedor3 input,
+.contenedor3 select,
+.contenedor3 button,
+.contenedor3 p {
+  display: block;
+  margin-bottom: 10px; 
+  
+}
+
+
+.contenedor1 span,
+.contenedor2 span,
+.contenedor3 span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.contenedor1 {
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  padding: 30px;
+  border: 2px solid #129c0d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.contenedor2 {
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  padding: 30px;
+  border: 2px solid #129c0d;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+
+.contenedor3 {
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  padding: 30px;
+  border: 2px solid #129c0d;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  
+}
+
+h2{
+  font-size: 22px;
+  position: relative;
+  max-width: 100%; 
+  text-align: center;
+  bottom: 20px;   
+  
+}
+
+  
+.contenedor1 input,
+.contenedor2 input,
+.contenedor3 input {
+  font-size: 14px; 
+  width: 100%; 
+  padding: 5px; 
+  box-sizing: border-box; 
+  border-radius: 3px;
+}
+
+
+.contenedor1 select,
+.contenedor2 select,
+.contenedor3 select {
+  font-size: 14px; 
+  width: 100%; 
+  padding: 5px; 
+  box-sizing: border-box; 
+  border: 1px solid #333; 
+  background-color: #fff; 
+  color: #333; 
+  border-radius: 3px; 
+}
+
+
+
+.contenedor1 button,
+.contenedor2 button,
+.contenedor3 button {
+  display: block; /* Cambia a "block" para que ocupen todo el ancho */
+  margin: 0 auto; /* Margen automático a los lados para centrar */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 13px;
+  
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #289628;
+}
+
+
+.contenedor1 p,
+.contenedor2 p,
+.contenedor3 p {
+  text-align: center; 
+  margin: 10px 0; 
+  font-size: 20px;
+}
+
+
+ 
+
+
+
+
+
+

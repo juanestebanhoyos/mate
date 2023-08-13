@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dis.css">
+</head>
+<body>
+    <h1>conversion de magnitudes</h1>
+    <div class="contenedor1">
+        <h2>conversion de unidades de longitud </h2>
+        <span>convertir:</span>
+        <input type="number" id="valor">
+        <select name="lista1" id="lista1">
+            <option value="km">kilometros</option>
+            <option value="hm">hectómetro</option>
+            <option value="dem">decámetro</option>
+            <option value="m">metro</option>
+            <option value="dm">decímetro</option>
+            <option value="cm">centímetro</option>
+            <option value="mm">milímetro</option>
+        </select>
+        <span>A:</span>
+        <select name="lista2" id="lista2">
+            <option value="km">kilometros</option>
+            <option value="hm">hectómetro</option>
+            <option value="dem">decámetro</option>
+            <option value="m">metro</option>
+            <option value="dm">decímetro</option>
+            <option value="cm">centímetro</option>
+            <option value="mm">milímetro</option>
+            
+        </select>
+        <button onclick="convertir()">convertir</button>
+        <p id="resultado"></p>
+        
+    </div>
+
+    <div class="contenedor2">
+        <h2>conversion de unidades de masa</h2>
+        <span>convertir:</span>
+        <input type="number" id="valor2">
+        <select name="lista3" id="lista3">
+            <option value="kg">kilogramo</option>
+            <option value="hg">hectogramo</option>
+            <option value="t">tonelada</option>
+            <option value="l">libra</option>
+            <option value="g">gramo</option>
+            <option value="µg">microgramo</option>
+            
+            
+        </select>
+        <span>A:</span>
+        <select name="lista4" id="lista4">
+            <option value="kg">kilogramo</option>
+            <option value="hg">hectogramo</option>
+            <option value="t">tonelada</option>
+            <option value="l">libra</option>
+            <option value="g">gramo</option>
+            <option value="µg">microgramo</option>
+            
+            
+        </select>
+        <button onclick="convertir2()">convertir</button>
+        <p id="resultado2"></p>
+    </div>
+
+    <div class="contenedor3">
+        <h2>conversion de unidades de tiempo</h2>
+        <span>convertir:</span>
+        <input type="number" id="valor3">
+        <select name="lista5" id="lista5">
+            <option value="s">segundos</option>
+            <option value="min">minutos</option>
+            <option value="h">horas</option>
+            <option value="dia">dia</option>
+        </select>
+        <span>A:</span>
+        <select name="lista6" id="lista6">
+            <option value="s">segundos</option>
+            <option value="min">minutos</option>
+            <option value="h">horas</option>
+            <option value="dia">dia</option>   
+        </select>
+        <button onclick="convertir3()">convertir</button>
+        <p id="resultado3"></p>
+    </div>
+    <script src="conver.js"></script>
+
+</body>
+</html>
